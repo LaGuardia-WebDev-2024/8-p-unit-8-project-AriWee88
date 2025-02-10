@@ -9,11 +9,16 @@ setup = function() {
 draw = function(){
 
 drawFishy();
+drawCrab();
 
 };
+var drawCrab = function(){
+textSize(60)  
+text("🦀",300,500);
+}
 
 
-var drawFishy function = function(){
+var drawFishy = function(){
 
       noStroke();
       scale(.6);
@@ -112,6 +117,21 @@ var drawFishy function = function(){
             fill(19, 19, 20 );
             ellipse(342,180,18,18);
 };
+  
+
+
+
+
+
+
+
+var drawKelp = function(){
+nostroke();
+
+
+
+}
+
 
 
 
