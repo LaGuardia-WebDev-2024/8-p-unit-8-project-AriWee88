@@ -9,13 +9,38 @@ setup = function() {
 draw = function(){
 
 drawFishy();
+drawPuffer();
 drawCrab();
 
 };
+var drawPuffer = function(){
+textSize(80)  
+text("🐡",600,250);
+};
+
 var drawCrab = function(){
-textSize(60)  
-text("🦀",300,500);
-}
+textSize(0)
+text("", 400,500);
+};
+
+//🟡drawStar Function - custom function created by Ms. Hall
+var drawStar = function(){
+ 
+  var starX = mouseX + (-12,12);
+  var starY = mouseY + (-12,12);
+  textSize(40);
+  text("🦀",starX, starY);
+};
+
+//🟡mouseClicked Function - will run when the mouse is clicked
+mouseClicked = function(){
+  var myText = "x: " + mouseX + "\ny: " + mouseY;
+  console.log(myText);
+
+  drawStar();
+  drawStar();
+  drawStar();
+};
 
 
 var drawFishy = function(){
@@ -119,18 +144,6 @@ var drawFishy = function(){
 };
   
 
-
-
-
-
-
-
-var drawKelp = function(){
-nostroke();
-
-
-
-}
 
 
 
