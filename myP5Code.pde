@@ -9,20 +9,20 @@ setup = function() {
 draw = function(){
 
 drawFishy();
+drawFishy();
 drawPuffer();
 drawCrab();
 
 };
-var drawPuffer = function(){
+
+
+
+
+var drawPuffer = function(PufferX,PufferY){
+
 textSize(80)  
 text("🐡",600,250);
 };
-
-var drawCrab = function(){
-textSize(0)
-text("", 400,500);
-};
-
 //🟡drawStar Function - custom function created by Ms. Hall
 var drawStar = function(){
  
@@ -41,6 +41,12 @@ mouseClicked = function(){
   drawStar();
   drawStar();
 };
+
+var drawCrab = function(){
+textSize(0)
+text("🦀", 400,500);
+};
+
 
 
 var drawFishy = function(){
