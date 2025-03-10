@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-image: url("");
+  background-color: rgb(209, 231, 253);
   text-align: center;
-  color: navy;
+  color: rgb(20, 138, 250);
   margin: auto;
   font-family: water;
 }
@@ -16,11 +17,10 @@ h1{
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url("https://cdn.glitch.global/7c045581-acb1-4df1-ad6c-54fbe1d9d0b6/Screenshot%202025-03-10%203.05.10%20AM.png?v=1741590322978");
   background-size: 600px 400px;
-  border-radius: 300px;
-  border: 5px solid white;
+  border-radius: 100px;
+  border: 5px solid rgb(77, 134, 249);  
 }
-
 
 
